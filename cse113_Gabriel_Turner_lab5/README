@@ -1,0 +1,16 @@
+Gabriel Turner
+2021-09-24
+Lab 3
+
+Purpose: To figure out how to use enumerators and how to use structures.
+
+Conclusion:
+a) What I learned from this lab.
+    I learned the use of structures and how they can do certain things. Examples of this are if you want to store many values to a single related location. This could be something like a pro league of legends player and storing the data of their kills, deaths, assists, farm etc. This could then be used for multiple players too and can be called to print, average and calculate different things with this.
+b) How did the pair programming help/hinder the lab:
+    Pair: I feel like the pair programming helped a bit as it showed me just how annoying writing so many arrays is and how structures are so so much better than this
+    Buddy: we never really consulted during the lab
+c) Issues and how I fixed them:
+    I had some trouble with learning how to store values of an array through a function in exercise 1 however i figured it out semi quickly by looking at how it kinda was done in ex 2 and using this information.
+d) Improvements that could be made:
+    Improvements that could be made are some stuff like in ex 2 where it will just print the value for the max height and min height etc and the id of that point but besides that I am generally happy with how the codes turned out.

@@ -1,0 +1,12 @@
+Structures are better in situations where multiple variables are needed to be stored about a
+specific item. For example, say you need to code information about like a patient or customer or 
+something. The information needed might include height, weight, age, previous health issues etc.
+Instead of making like 4+ arrays for this and having weird formatting stuff, a structure is perfect
+for this as all the information can be stored in a structure with a certain index that corresponds to
+that person or customer.
+
+Arrays are better for more data analysis stuff of just one variable. Say you want to store just the
+ages of people that are your customers to try and find the average. This would be better suited for 
+an array than a structure because there is only 1 variable that is being stored not like multiple
+variables or stuff. So basically arrays are just a slightly worse vesion of structures but save time 
+if it's just like one element and stuff.

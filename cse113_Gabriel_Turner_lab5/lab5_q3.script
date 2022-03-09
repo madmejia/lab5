@@ -1,0 +1,10 @@
+Script started on 2021-10-10 22:02:09-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="128" LINES="18"]
+]0;gabraham@gabraham-VirtualBox: ~/cse113/lab 5/lab5[01;32mgabraham@gabraham-VirtualBox[00m:[01;34m~/cse113/lab 5/lab5[00m$ ./q3
+enter coordinate 1 as x,y: 3,6
+enter coordinate 2 as x,y: 4,8
+2.236068
+3.000000
+]0;gabraham@gabraham-VirtualBox: ~/cse113/lab 5/lab5[01;32mgabraham@gabraham-VirtualBox[00m:[01;34m~/cse113/lab 5/lab5[00m$ exit
+exit
+
+Script done on 2021-10-10 22:03:01-06:00 [COMMAND_EXIT_CODE="0"]
