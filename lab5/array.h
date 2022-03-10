@@ -3,9 +3,9 @@
  * 
  * @author Madison Mejia
  *
- * @date 2/18/2022
+ * @date 3/9/2022
  *  
- * Assignment: Lab 3 
+ * Assignment: Lab 5
  *
  * @brief header file for array.c
  *
@@ -43,7 +43,6 @@ int get_median(int a[], size_t size);
 int even_count(int a[], size_t size);
 int odd_count(int a[], size_t size);
 int divisible_count(int a[], size_t size, int min);
-void print_summary(size_t size, int min, int max, int mid, int lt, int gt, int linear, int sum, int average, int median, int even, int odd, int divisible);
 
 #endif
 

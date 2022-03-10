@@ -3,9 +3,9 @@
  *
  * @author Madison Mejia
  *
- * @date 2/18/2022
+ * @date 3/9/2022
  *
- * Assignment: Lab 3
+ * Assignment: Lab 5
  *
  * @brief Functions for fundamental array algorithms.
  *
@@ -16,10 +16,10 @@
  *
  * @bug none
  *
- * @todo implement floating point versions of the functions
+ * @todo 
  */
 
- /* lab 3 test array */
+ /* lab 5 test array */
  /* copy this array into main to test your program, once you have tested all functions */
  /* rename the array as appropriate for your program */
  /* DO NOT CHANGE ANY VALUES */
@@ -307,43 +307,3 @@ int divisible_count(int a[], size_t size, int x)
 	return count;
 }
 
-/**
- * @brief prints the summary of the array's parameters
- * @param size the size of the array
- * @param min the min of the array
- * @param max the max of the array
- * @param mid the midpoint fo the array
- * @param lt count of less than values (midpoint)
- * @param gt count of greater than values (midpoint)
- * @param linear index of the value that equals another given value (midpoint)
- * @param sum the sum of the array
- * @param average the average value of the array
- * @param median the median of the array
- * @param even the number of even values
- * @param odd the number of odd values
- * @param divisible the number of divisible values by a given value (min)
- */
-void print_summary(size_t size, int min, int max, int mid, int lt, int gt, int linear, int sum, int average, int median, int even, int odd, int divisible) 
-{
-	printf("Size = %zu\n", size);
-	printf("Max = %d\n", max);
-	printf("Min = %d\n", min);
-	printf("Midpoint = %d\n", mid);
-	printf("Less than midpoint = %d\n", lt);
-	printf("Greater than midpoint = %d\n", gt);
-
-	switch (linear) {
-	case -1: 
-		printf("Midpoint is not in the list\n");
-		break;
-	default:
-		printf("Midpoint is at index: %d\n", linear);
-	}
-
-	printf("Sum = %d\n", sum);
-	printf("Average = %d\n", average);
-	printf("Median = %d\n", median);
-	printf("Even count = %d\n", even);
-	printf("Odd count = %d\n", odd);
-	printf("Count of divisible by minimum = %d\n", divisible);
-}
