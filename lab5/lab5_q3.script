@@ -1,0 +1,11 @@
+Script started on 2022-03-09 19:38:42-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;mad@CSE113: ~/Desktop/lab5/lab5[01;32mmad@CSE113[00m:[01;34m~/Desktop/lab5/lab5[00m$ exit./lab5_q3gcc -g -Wall lab5_q3.c -o lab5_q3 -lm
+]0;mad@CSE113: ~/Desktop/lab5/lab5[01;32mmad@CSE113[00m:[01;34m~/Desktop/lab5/lab5[00m$ gcc -g -Wall lab5_q3.c -o lab5_q3 -lm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./lab5_q3
+Enter first coordinate as x,y: 6,7
+Enter second coordinate as x,y: 5. ,2
+5.099020
+6.000000
+]0;mad@CSE113: ~/Desktop/lab5/lab5[01;32mmad@CSE113[00m:[01;34m~/Desktop/lab5/lab5[00m$ exit
+exit
+
+Script done on 2022-03-09 19:39:13-07:00 [COMMAND_EXIT_CODE="0"]

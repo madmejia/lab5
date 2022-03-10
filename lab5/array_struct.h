@@ -1,17 +1,16 @@
 /**
  * @file array_struct.h
  * 
- * @author your name (you@domain.com)
+ * @author Madison Mejia
  *
- * @date 2022-03-09
+ * @date 3/9/2022
  * 
- * @brief
+ * @brief header file with prototypes for array_struct.c
+ *  
+ * @details see array_struct.c
  * 
- * @details
- * 
- * @bug
+ * @bug none
  */
-
 
 #ifndef ARRAY_STRUCT_H_
 #define ARRAY_STRUCT_H_

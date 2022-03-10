@@ -1,3 +1,18 @@
+/**
+ * @file array_struct.c
+ * 
+ * @author Madison Mejia
+ *
+ * @date 3/9/2022
+ * 
+ * @brief finds different information about values in a structure
+ *  
+ * @details finds the max and min of the average heights and ages of the people
+ * also calculates the average ages and heights, then prints values 
+ * 
+ * @bug none
+ */
+
 #include "array_struct.h"
 #include <stdio.h>
 #include <stddef.h>
@@ -18,6 +33,7 @@ int main(void)
 	init_array(data, 3, 'D', 20, 76);
 	init_array(data, 4, 'E', 22, 62);
 
+	///all of the following calculates and prints values
 	int tmp = max_age(data);
 	print_info(data, tmp, MAX_A);
 
@@ -37,6 +53,14 @@ int main(void)
 	return 0;
 }
 
+/**
+ * @brief initializes structure at an index, identifying ID, years, and height
+ * @param data[] the initialized structure  
+ * @param index index of person
+ * @param id letter ID distinguishes structures apart
+ * @param years age
+ * @param inches height
+ */
 void init_array(struct data_t data[], int index, char id, int years, int inches)
 {
 	data[index].subject = id;
@@ -44,6 +68,12 @@ void init_array(struct data_t data[], int index, char id, int years, int inches)
 	data[index].height = inches;
 }
 
+/**
+ * @brief prints message with structure values
+ * @param data[] the initialized structure
+ * @param i index of structure
+ * @param type min or max of age or height
+ */
 void print_info(struct data_t data[], int i, int type)
 {
 	switch (type) {
@@ -65,6 +95,11 @@ void print_info(struct data_t data[], int i, int type)
 	printf("Age: %d\n\n", data[i].age);
 }
 
+/**
+ * @brief searches for max age
+ * @param data[] initialized structure
+ * @return index that has max age
+ */
 int max_age(struct data_t data[]) 
 {
 	int i = 0;
@@ -78,6 +113,11 @@ int max_age(struct data_t data[])
 	return tmp;
 }
 
+/**
+ * @brief searches for min age
+ * @param data[] initialized structure
+ * @return index that has min age
+ */
 int min_age(struct data_t data[]) 
 {
 	int i = 0;
@@ -91,6 +131,11 @@ int min_age(struct data_t data[])
 	return tmp;
 }
 
+/**
+ * @brief searches for max height
+ * @param data[] initialized structure
+ * @return index that has max height
+ */
 int max_height(struct data_t data[]) 
 {
 	int i = 0;
@@ -104,6 +149,11 @@ int max_height(struct data_t data[])
 	return tmp;
 }
 
+/**
+ * @brief searches for min height
+ * @param data[] initialized structure
+ * @return index that has min height
+ */
 int min_height(struct data_t data[]) 
 {
 	int i = 0;
@@ -117,23 +167,33 @@ int min_height(struct data_t data[])
 	return tmp;
 }
 
+/**
+ * @brief calculates the average age
+ * @param data[] initialized structure
+ * @return average age of structure
+ */
 int avg_age(struct data_t data[]) 
 {
 	int sum = 0;
 	int i;
 
-	for(i = 1; i < SIZE; i++) {
+	for(i = 0; i < SIZE; i++) {
 		sum = sum + data[i].age;
 	}
 	return sum / SIZE;
 }
 
+/**
+ * @brief calculates the average height
+ * @param data[] initialized structure
+ * @return average height of structure
+ */
 int avg_height(struct data_t data[]) 
 {
 	int sum = 0;
 	int i;
 
-	for(i = 1; i < SIZE; i++) {
+	for(i = 0; i < SIZE; i++) {
 		sum = sum + data[i].height;
 	}
 	return sum / SIZE;

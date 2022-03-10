@@ -1,5 +1,22 @@
+/**
+ * @file lab5_q2.c
+ * 
+ * @author Madison Mejia
+ *
+ * @date 3/9/2022
+ * 
+ * Assignment: Lab 5
+ * 
+ * @brief a program that gives the colors of the rainbow a numeric value
+ *  
+ * @details 
+ * 
+ * @bug none
+ */
+
 #include <stdio.h>
 
+///numbers enumerated with value
 enum {
         RED = 18,
         ORANGE,

@@ -1,0 +1,29 @@
+Script started on 2022-03-09 19:21:45-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;mad@CSE113: ~/Desktop/lab5/lab5[01;32mmad@CSE113[00m:[01;34m~/Desktop/lab5/lab5[00m$ exit./lab5[K[K[K[K[K[Kgcc -g -Wall array_struct.c -o array_Stru[K[K[K[Kstruct
+]0;mad@CSE113: ~/Desktop/lab5/lab5[01;32mmad@CSE113[00m:[01;34m~/Desktop/lab5/lab5[00m$ ./array_struct
+Maximum Age: 
+ID: A
+Height: 74
+Age: 23
+
+Minimum Age: 
+ID: C
+Height: 68
+Age: 19
+
+Maximum height: 
+ID: D
+Height: 76
+Age: 20
+
+Minimum height: 
+ID: E
+Height: 62
+Age: 22
+
+Average age: 21
+Average height: 68
+]0;mad@CSE113: ~/Desktop/lab5/lab5[01;32mmad@CSE113[00m:[01;34m~/Desktop/lab5/lab5[00m$ exit
+exit
+
+Script done on 2022-03-09 19:22:34-07:00 [COMMAND_EXIT_CODE="0"]
