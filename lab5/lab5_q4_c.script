@@ -1,0 +1,23 @@
+Script started on 2022-03-09 20:34:05-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="61" LINES="39"]
+]0;mad@CSE113: ~/Desktop/lab5/lab5[01;32mmad@CSE113[00m:[01;34m~/Desktop/lab5/lab5[00m$ exit1[K./lab5_q4gcc -g -Wall lab5_q4.c -o lab5_q4
+]0;mad@CSE113: ~/Desktop/lab5/lab5[01;32mmad@CSE113[00m:[01;34m~/Desktop/lab5/lab5[00m$ gcc -g -Wall lab5_q4.c -o lab5_q4[A]0;mad@CSE113: ~/Desktop/lab5/lab5[01;32mmad@CSE113[00m:[01;34m~/Desktop/lab5/lab5[00m$ exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1[K./lab5_q4
+Type 1 to enter a date
+Type 0 to quit
+Enter: 0
+]0;mad@CSE113: ~/Desktop/lab5/lab5[01;32mmad@CSE113[00m:[01;34m~/Desktop/lab5/lab5[00m$ ./lab5_q4
+Type 1 to enter a date
+Type 0 to quit
+Enter: 1
+Enter a date in the format MM/DD/YY: 10/29/201   01
+Scorpio
+]0;mad@CSE113: ~/Desktop/lab5/lab5[01;32mmad@CSE113[00m:[01;34m~/Desktop/lab5/lab5[00m$ ./lab5_q4
+Type 1 to enter a date
+Type 0 to quit
+Enter: 1
+Enter a date in the format MM/DD/YY: 04/09/65
+Aries
+]0;mad@CSE113: ~/Desktop/lab5/lab5[01;32mmad@CSE113[00m:[01;34m~/Desktop/lab5/lab5[00m$ exit
+exit
+
+Script done on 2022-03-09 20:34:34-07:00 [COMMAND_EXIT_CODE="0"]

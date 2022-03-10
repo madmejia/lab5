@@ -1,5 +1,5 @@
 /**
- * @file lab5_q2.c
+ * @file lab5_q3.c
  * 
  * @author Madison Mejia
  *
