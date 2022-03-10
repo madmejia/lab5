@@ -1,0 +1,27 @@
+Madison Mejia
+2022-03-09
+Lab 5
+
+Purpose: To understand how to use structures and enumerate
+
+Conclusions: 
+
+
+a) What I learned from this lab:
+
+I learned how structures worked and to what extent they are different from arrays. Particularly, I learned how much more versatile they are when storing variables. Unlike arrays, they are able to store multiple different data types and various information of a specific item. I also was able to learn how to enumerate things and the syntax that comes with it.
+
+
+b) How did pair programming help/hinder the lab:
+
+Pair: We both were able to come to an agreement that structures can be a lot more efficient than arrays. The syntax can also be less confusing when it comes to more complicated programs. For the arrays, we were able to catch each others mistakes.
+
+Buddy: I didn't end up consulting my partner during the lab.
+
+
+c) Issues and how I fixed them (bug report):
+
+I had trouble trying to understand how to store array values through a function in the first exercise, but by simply skipping it and coming back to it later, I was able to figure it out.
+
+d) Improvements that can be made:
+There was an issue with the menu in the zodiac sign exercise that I wish I could fix. The continuous "Unrecognizable value" message repeats along with the menu prompt.
